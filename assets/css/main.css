@@ -14179,12 +14179,14 @@ html[tp-theme=tp-theme-light] .cursor-white #ball {
 }
 .ab-hero__title {
   font-weight: 500;
-  font-size: 168px;
+  /*font-size: 168px;*/
+  font-size: 155px;
+  margin-bottom: 70px;
   line-height: 1;
   letter-spacing: -0.03em;
   color: var(--tp-common-white);
   font-family: var(--tp-ff-didoneright);
-  margin-bottom: 40px;
+  /*margin-bottom: 40px;*/
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .ab-hero__title {
@@ -14204,6 +14206,7 @@ html[tp-theme=tp-theme-light] .cursor-white #ball {
 @media (max-width: 767px) {
   .ab-hero__title {
     font-size: 50px;
+    margin-bottom: 40px;
   }
 }
 .ab-hero__big-img img {
